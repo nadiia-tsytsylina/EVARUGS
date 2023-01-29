@@ -78,3 +78,7 @@ p {
   line-height: 0.94;
   color: #ffffff;
 }
+
+.navigation-list {
+  background-image: url(../images/bcg-main-mob.png);
+}
