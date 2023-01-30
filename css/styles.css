@@ -41,7 +41,7 @@ p {
   margin: -1px;
 }
 .container {
-  width: 100%;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 27px;
@@ -184,11 +184,77 @@ p {
     rgba(212, 20, 90, 0.25) 0.96%,
     rgba(46, 49, 146, 0.25) 104.83%
   );
-  padding-top: 36px;
+  padding-top: 97px;
   padding-bottom: 44px;
   gap: 27px;
 }
 .reviews-list {
   display: flex;
   flex-direction: column;
+  gap: 86px;
+}
+.reviews-descr {
+  position: relative;
+  padding: 70px 27px 27px 27px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  max-width: 267px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.16;
+}
+.review-img {
+  position: absolute;
+  left: 50%;
+  bottom: 60%;
+  transform: translateX(-50%);
+}
+.review-text {
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+  border-color: #d4145a;
+}
+.review-name {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.15;
+  color: #8e8e8e;
+  margin-top: 17px;
+}
+
+.footer {
+  padding: 50px 48px 50px 48px;
+  text-align: center;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.12;
+  margin-bottom: 10px;
+}
+.inst-icon {
+  width: 33px;
+  height: 33px;
+  fill: url(#MyGradient);
+  margin-bottom: 14px;
+}
+.footer-tel {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 10px;
+  color: #000;
+}
+.footer-contacts {
+  margin-bottom: 14px;
+}
+.footer-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.12;
+  color: #000;
 }
