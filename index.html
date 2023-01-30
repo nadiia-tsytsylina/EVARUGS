@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-row">
         <ul class="header-list">
           <li header-item>
             <a class="header-contacts" href="tel:+375292922929"
@@ -28,9 +28,14 @@
             >
           </li>
         </ul>
-        <a class="header-city" href="">ваш город</a>
+        <a class="header-city" href="">
+          <svg class="location-icon">
+            <use href="./images/svg.svg#icon-location"></use>
+          </svg>
+          ваш город</a
+        >
         <a class="header-inst" href="">
-          <svg class="inst-icon">
+          <svg class="inst-icon-header">
             <use href="./images/svg.svg#icon-instagram"></use>
           </svg>
           посетите нашу страницу</a
@@ -64,11 +69,13 @@
               <li><a href="">контакты</a></li>
             </ul>
           </nav>
-          <div class="hero-decr">
-            <h1 class="hero-title">Инновационные коврики для автомобиля</h1>
-            <p class="hero-subtitle">в вашем городе</p>
-            <button class="hero-btn" type="button">ЗАКАЗАТЬ</button>
-            <img class="hero-img" src="./images/main.png" alt="" />
+          <div class="hero-thumb">
+            <div class="hero-decr">
+              <h1 class="hero-title">Инновационные коврики для автомобиля</h1>
+              <p class="hero-subtitle">в вашем городе</p>
+              <button class="hero-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+            <img class="hero-img" src="./images/main.png" alt="" width="368" />
           </div>
         </div>
       </section>

@@ -78,6 +78,9 @@ p {
   line-height: 0.94;
   color: #ffffff;
 }
+.location-icon {
+  display: none;
+}
 
 .hero {
   padding-top: 26px;
@@ -108,6 +111,9 @@ p {
 .hero {
   text-align: center;
   background-image: url(../images/bcg-main-mob.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 900;
@@ -257,4 +263,114 @@ p {
   font-size: 14px;
   line-height: 1.12;
   color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-inst {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #ffffff;
+  }
+  .location-icon {
+    display: inline;
+    width: 10px;
+    height: 17px;
+    margin-right: 10px;
+    fill: #ffffff;
+  }
+  .inst-icon-header {
+    width: 27px;
+    height: 27px;
+    fill: #ffffff;
+  }
+
+  .hero {
+    padding-top: 52px;
+    padding-bottom: 90px;
+    padding-left: 66px;
+  }
+  .logo-icon {
+    width: 100px;
+    height: 60px;
+  }
+  .logo-link {
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 62px;
+  }
+  .hero-img {
+    display: block;
+  }
+  .hero {
+    text-align: left;
+  }
+  .hero-title {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .hero-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .hero-btn {
+    padding: 12px;
+    min-width: 141px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .hero-decr {
+    width: 314px;
+  }
+  .hero-thumb {
+    display: flex;
+  }
+
+  .about {
+    padding-bottom: 124px;
+  }
+  .about-title {
+    font-size: 40px;
+    margin-bottom: 48px;
+  }
+  .about-list {
+    gap: 61px;
+  }
+  .about-item {
+    width: 594px;
+  }
+  .about-item img {
+    border-radius: 9px 9px 0 0;
+  }
+  .about-descr {
+    padding: 15px 17px 21px 17px;
+  }
+  .about-subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.16;
+    margin-bottom: 8px;
+  }
+  .about-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #767676;
+  }
 }
