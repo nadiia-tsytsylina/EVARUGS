@@ -192,7 +192,6 @@ p {
   );
   padding-top: 97px;
   padding-bottom: 44px;
-  gap: 27px;
 }
 .reviews-list {
   display: flex;
@@ -362,15 +361,61 @@ p {
     padding: 15px 17px 21px 17px;
   }
   .about-subtitle {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.16;
+    font-size: 36px;
+    line-height: 1.2;
     margin-bottom: 8px;
   }
-  .about-text {
+
+  .reviews {
+    padding-bottom: 72px;
+  }
+  .reviews-list {
+    gap: 109px;
+  }
+  .reviews-descr {
+    padding: 77px 45px 36px 45px;
+    max-width: 536px;
+    font-size: 18px;
+    line-height: 1.16;
+  }
+
+  .footer {
+    padding: 95px 48px 48px 0;
+    text-align: left;
+    background-image: url(../images/bcg-footer-tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .footer-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.12;
+    margin-bottom: 10px;
+  }
+  .inst-icon {
+    width: 33px;
+    height: 33px;
+    fill: url(#MyGradient);
+    margin-bottom: 14px;
+  }
+  .footer-tel {
     font-weight: 300;
     font-size: 14px;
-    line-height: 16px;
-    color: #767676;
+    line-height: 10px;
+    color: #000;
+  }
+  .footer-contacts {
+    margin-bottom: 14px;
+  }
+  .footer-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.12;
+    color: #000;
   }
 }

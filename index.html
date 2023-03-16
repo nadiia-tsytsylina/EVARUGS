@@ -86,7 +86,22 @@
           </h2>
           <ul class="about-list">
             <li class="about-item">
-              <img src="./images/img-1.jpg" alt="" width="264" />
+              <picture>
+                <source
+                  srcset="./images/img-1.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/img-1-tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/img-1-mob.jpg"
+                  media="(min-width: 320px)"
+                />
+                <img src="./images/img-1-mob.jpg" alt="" />
+              </picture>
+
               <div class="about-descr">
                 <h3 class="about-subtitle">МАТЕРИАЛ</h3>
                 <p class="about-text">
@@ -98,7 +113,21 @@
               </div>
             </li>
             <li class="about-item">
-              <img src="./images/img-2.jpg" alt="" width="264" />
+              <picture>
+                <source
+                  srcset="./images/img-2.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/img-2-tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/img-2-mob.jpg"
+                  media="(min-width: 320px)"
+                />
+                <img src="./images/img-2-mob.jpg" alt="" />
+              </picture>
               <div class="about-descr">
                 <h3 class="about-subtitle">ОТЛИЧИЯ</h3>
                 <p class="about-text">
@@ -110,7 +139,21 @@
               </div>
             </li>
             <li class="about-item">
-              <img src="./images/img-3.jpg" alt="" width="264" />
+              <picture>
+                <source
+                  srcset="./images/img-3.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/img-3-tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/img-3-mob.jpg"
+                  media="(min-width: 320px)"
+                />
+                <img src="./images/img-3-mob.jpg" alt="" />
+              </picture>
               <div class="about-descr">
                 <h3 class="about-subtitle">РАСЦВЕТКА</h3>
                 <p class="about-text">
@@ -181,7 +224,7 @@
 
     <footer class="footer">
       <div class="container">
-        <ul>
+        <ul class="footer-list">
           <li>
             <h3 class="footer-title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
             <a href="">
