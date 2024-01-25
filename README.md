@@ -1,6 +1,6 @@
 # EVARUGS
 
-## CTRLCHAMPS FRONTEND
+# CTRLCHAMPS FRONTEND
 
 Backend part: [CtrlChamps Backend](https://github.com/ZenBit-Tech/ctrlchamps_be)
 
