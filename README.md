@@ -2,9 +2,21 @@
 
 # CTRLCHAMPS FRONTEND
 
+### To run the app locally:
+
+1. Make sure you have an LTS version of Node.js installed on your computer.
+   [Download and install](https://nodejs.org/en/) if it necessary.
+2. Clone this repo.
+3. Install the basic project dependencies (Installation).
+4. Create .env.local file @ apps/freelance (near env.example file). Should include variables from example file with correct values
+5. Start development mode (Running the app).
+6. Navigate to the address in your browser
+   [http://localhost:3000](http://localhost:3000). This page will automatically
+   reload after saving changes to project files.
+
 Backend part: [CtrlChamps Backend](https://github.com/ZenBit-Tech/ctrlchamps_be)
 
-## INSTALLATION
+## Installation
 
 ```bash
 # USING NPM
